@@ -21,14 +21,16 @@ public class HelloController {
 
     private static final long serialVersionUID = 2878267318695777395L;
 
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(value="/test", method = RequestMethod.GET)
     public String printWelcome(ModelMap model) {
 
+        System.out.println("...HelloController...printWelcome()");
         model.addAttribute("message", "Hello world!");
+
         return "hello";
     }
 
-    @RequestMapping(value="/test", method = RequestMethod.GET)
+    @RequestMapping( method = RequestMethod.GET)
     public String test(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         System.out.println("...HelloController...test()");
