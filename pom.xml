@@ -11,6 +11,36 @@
         <spring.version>4.1.1.RELEASE</spring.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>MavenCentral</id>
+            <name>Maven repository</name>
+            <url>http://mvnrepository.com/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>Maven2</id>
+            <url>http://repo1.maven.org/</url>
+        </repository>
+        <repository>
+            <id>skp-public</id>
+            <name>skplanet public repository</name>
+            <url>http://mvn.skplanet.com/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -94,7 +124,15 @@
             <version>3.1.0</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>com.skplanet.spring.data.plandas</groupId>
+            <artifactId>spring-data-plandas</artifactId>
+            <version>1.1.1-spring4</version>
+            <!--<exclusions>-->
+                <!--<groupId>org.springframework</groupId>-->
+                <!--<artifactId>spring-tx</artifactId>-->
+            <!--</exclusions>-->
+        </dependency>
 
     </dependencies>
 

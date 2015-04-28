@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.skplanet.spring.data.plandas:spring-data-plandas:1.1.1-spring4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/skplanet/spring/data/plandas/spring-data-plandas/1.1.1-spring4/spring-data-plandas-1.1.1-spring4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/skplanet/spring/data/plandas/spring-data-plandas/1.1.1-spring4/spring-data-plandas-1.1.1-spring4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/skplanet/spring/data/plandas/spring-data-plandas/1.1.1-spring4/spring-data-plandas-1.1.1-spring4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
