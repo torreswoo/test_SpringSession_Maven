@@ -38,13 +38,13 @@
           <file leaf-file-name="Config.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/skplanet/sample/Config.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48387095">
-                  <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.5141129">
+                  <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <marker date="1430214494000" expanded="true" signature="547:944" placeholder="{...}" />
-                    <marker date="1430214494000" expanded="true" signature="613:942" placeholder="{...}" />
-                    <marker date="1430214494000" expanded="true" signature="1007:1580" placeholder="{...}" />
+                    <marker date="1430215277000" expanded="true" signature="420:839" placeholder="{...}" />
+                    <marker date="1430215277000" expanded="true" signature="492:835" placeholder="{...}" />
+                    <marker date="1430215277000" expanded="true" signature="1279:1820" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -101,8 +101,8 @@
           <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.217742">
-                  <caret line="116" column="16" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.55241936">
+                  <caret line="132" column="33" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="33" />
                   <folding>
                     <marker date="1430212036000" expanded="true" signature="4127:4280" placeholder="..." />
                   </folding>
@@ -139,6 +139,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skplanetw/sample/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skplanet/sample/Config.java" />
       </list>
     </option>
@@ -323,6 +324,10 @@
               <option name="myItemId" value="SpringSession_Maven" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -353,10 +358,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skplanet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -499,40 +500,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skplanet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSession_Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSession_Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skplanet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -924,12 +891,12 @@
       <workItem from="1430125600763" duration="2747000" />
       <workItem from="1430128545463" duration="4562000" />
       <workItem from="1430181193130" duration="8861000" />
-      <workItem from="1430213218573" duration="1204000" />
+      <workItem from="1430213218573" duration="2020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17374000" />
+    <option name="totallyTimeSpent" value="18190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
@@ -998,9 +965,9 @@
           <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1430214494000" expanded="true" signature="547:944" placeholder="{...}" />
-            <marker date="1430214494000" expanded="true" signature="613:942" placeholder="{...}" />
-            <marker date="1430214494000" expanded="true" signature="1007:1580" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="420:839" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="492:835" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="1279:1820" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1081,9 +1048,9 @@
           <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1430214494000" expanded="true" signature="547:944" placeholder="{...}" />
-            <marker date="1430214494000" expanded="true" signature="613:942" placeholder="{...}" />
-            <marker date="1430214494000" expanded="true" signature="1007:1580" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="420:839" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="492:835" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="1279:1820" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1148,9 +1115,9 @@
           <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1430214494000" expanded="true" signature="547:944" placeholder="{...}" />
-            <marker date="1430214494000" expanded="true" signature="613:942" placeholder="{...}" />
-            <marker date="1430214494000" expanded="true" signature="1007:1580" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="420:839" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="492:835" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="1279:1820" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1321,16 +1288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.217742">
-          <caret line="116" column="16" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
-          <folding>
-            <marker date="1430212036000" expanded="true" signature="4127:4280" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.0.1.RELEASE/spring-session-1.0.1.RELEASE.jar!/org/springframework/session/data/redis/config/annotation/web/http/EnableRedisHttpSession.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2866242">
@@ -1363,15 +1320,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55241936">
+          <caret line="132" column="33" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="33" />
+          <folding>
+            <marker date="1430212036000" expanded="true" signature="4127:4280" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skplanet/sample/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48387095">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5141129">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1430214494000" expanded="true" signature="547:944" placeholder="{...}" />
-            <marker date="1430214494000" expanded="true" signature="613:942" placeholder="{...}" />
-            <marker date="1430214494000" expanded="true" signature="1007:1580" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="420:839" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="492:835" placeholder="{...}" />
+            <marker date="1430215277000" expanded="true" signature="1279:1820" placeholder="{...}" />
           </folding>
         </state>
       </provider>
