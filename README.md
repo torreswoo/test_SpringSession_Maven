@@ -34,6 +34,7 @@ SessionServlet클래스 : Session을 getSession()해서 setAttribute()하는 과
         </dependency>
         
 2. 클라이언트체크 https://plamos.skplanet.com/services/clients
+
         connection.setDomainName("dev.plandas.skplanet.com");
         connection.setServiceCode("sample_003"); //id
         connection.setAuthCode("****"); //pw
@@ -44,6 +45,7 @@ SessionServlet클래스 : Session을 getSession()해서 setAttribute()하는 과
 # log4j프로젝트에 추가하기기
 1. WEB-INF/classes/log4j.properties파일추가
 2. 세팅
+
 log4j.rootLogger=DEBUG, A1 // Set root logger level to DEBUG and its only appender to A1.
 log4j.appender.A1=org.apache.log4j.ConsoleAppender // A1 is set to be a ConsoleAppender.
 log4j.appender.A1.layout=org.apache.log4j.PatternLayout // A1 uses PatternLayout.
