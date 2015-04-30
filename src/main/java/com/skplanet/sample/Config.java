@@ -25,7 +25,6 @@ package com.skplanet.sample;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
-import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.connection.plandas.PlandasConnectionFactory;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 
@@ -37,14 +36,14 @@ public class Config {
 
 
         PlandasConnectionFactory connection = new PlandasConnectionFactory(); // <3>
-        //	connection.setPort(port);
+        // [error trace]  PlandasConnectionFactory => PlandasConnection => Plandasj
 
         connection.setDomainName("dev.plandas.skplanet.com");
         connection.setServiceCode("sample_003");
         connection.setAuthCode("1234");
         System.out.println("...Config...connectionFactory()");
-
-        //       connection.setPoolConfig(new JedisPoolConfig());
+        // connection.setPort(port);
+        // connection.setPoolConfig(new JedisPoolConfig());
 
         return connection;
     }
