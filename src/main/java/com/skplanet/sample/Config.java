@@ -24,15 +24,17 @@ package com.skplanet.sample;
 
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
-import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
+import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.connection.plandas.PlandasConnectionFactory;
+import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
+
 @EnableRedisHttpSession // <2>
 public class Config {
 
     @Bean
     public RedisConnectionFactory connectionFactory(){   // (@RedisServerPort int port) {
+
 
         PlandasConnectionFactory connection = new PlandasConnectionFactory(); // <3>
         //	connection.setPort(port);
