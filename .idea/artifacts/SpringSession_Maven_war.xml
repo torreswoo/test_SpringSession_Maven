@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="SpringSession_Maven:war">
+  <artifact type="war" name="SpringSession_Maven:war">
     <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="SpringSession_Maven.war">
       <element id="artifact" artifact-name="SpringSession_Maven:war exploded" />
